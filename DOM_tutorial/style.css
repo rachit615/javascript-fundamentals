@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+ul {
+  list-style: none;
+}
+.container {
+  max-width: 1200px;
+  width: 90%;
+  margin: auto;
+}
+.header {
+  height: 60vh;
+  background: url(./bg-image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.nav {
+  height: 8vh;
+  /* border: 1px solid white; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-items {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+.headline {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.btn {
+  display: inline-block;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.btn-headline {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  margin-top: 1rem;
+  margin-left: 25%;
+  border-radius: 2px;
+  font-weight: 500;
+}
+.section-todo {
+  margin-top: 5rem;
+  text-align: center;
+}
+.form-todo {
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-between;
+  min-height: 5vh;
+}
+.form-todo input {
+  min-height: 100%;
+}
+.form-todo input[type="text"] {
+  width: 76%;
+  padding: 0.7rem;
+}
+.form-todo input[type="submit"] {
+  width: 20%;
+  padding: 0.7rem;
+  background-color: rgb(44, 55, 63);
+  color: white;
+  border: none;
+  border-radius: 2px;
+}
+.section-signup {
+  margin-top: 5rem;
+  text-align: center;
+}
+.signup-form {
+  max-width: 800px;
+  width: 90%;
+  /* border: 1px solid black; */
+  text-align: left;
+  margin: auto;
+}
+.signup-form input {
+  width: 100%;
+  display: block;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.form-group label {
+  display: block;
+  margin-bottom: 1rem;
+}
