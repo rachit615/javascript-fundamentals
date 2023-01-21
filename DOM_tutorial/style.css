@@ -19,6 +19,18 @@ ul {
   width: 90%;
   margin: auto;
 }
+.todo-list {
+  text-align: left;
+  font-size: 1.2rem;
+  list-style: none;
+  margin-top: 1rem;
+}
+.todo-list li {
+  padding: 0.7rem;
+  background: #444;
+  color: aqua;
+  margin-bottom: 1rem;
+}
 .header {
   height: 60vh;
   background: url(./bg-image.jpg);
@@ -26,6 +38,7 @@ ul {
   background-repeat: no-repeat;
   position: relative;
 }
+
 .nav {
   height: 8vh;
   /* border: 1px solid white; */
